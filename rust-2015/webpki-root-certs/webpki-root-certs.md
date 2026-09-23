@@ -1,0 +1,37 @@
+# webpki-root-certs
+
+> 标签: Rust
+
+## 简介
+
+Mozilla trusted certificate authorities in self-signed X.509 format for use with crates other than webpki
+
+## 官网
+
+- 官网：https://github.com/rustls/webpki-roots
+- crates.io 页面：https://crates.io/crates/webpki-root-certs
+- 源码仓库：https://github.com/rustls/webpki-roots
+
+## 历史版本号
+
+- 当前版本：1.0.9
+
+- 0.26.10
+- 1.0.0
+- 0.26.11
+- 1.0.1
+- 1.0.2
+- 1.0.3
+- 1.0.4
+- 1.0.5
+- 1.0.6
+- 1.0.7
+- 1.0.8
+- 1.0.9
+- 共 18 个版本，完整清单见 crates.io。
+
+## 获取地址
+
+- Cargo 安装：`cargo add webpki-root-certs`
+- 下载页面：https://crates.io/crates/webpki-root-certs
+- 最低 Rust 版本：1.70
