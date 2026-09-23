@@ -407,11 +407,11 @@ def main() -> int:
         for i, fut in enumerate(as_completed(futures), 1):
             lib, entry = fut.result()
             results.append((lib, entry))
-            if i % 100 == 0 or i == len(futures):
+            if entry:
+                cache[lib.name] = entry
+            if i % 500 == 0 or i == len(futures):
+                save_cache(cache)
                 print(f"  enriched {i}/{len(futures)}", flush=True)
-    for lib, entry in results:
-        if entry:
-            cache[lib.name] = entry
     save_cache(cache)
     counts = generate(root, [lib for lib, _ in results], root)
     print("Generated per edition:", json.dumps(counts, sort_keys=True), flush=True)
