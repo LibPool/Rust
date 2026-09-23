@@ -1,0 +1,28 @@
+# build-context
+
+> 标签: Rust
+
+## 简介
+
+Make build environment/target information available as constants in normal libraries and binaries.
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/build-context
+- 源码仓库：https://github.com/taiki-e/build-context
+
+## 历史版本号
+
+- 当前版本：0.1.4
+
+- 0.1.0
+- 0.1.1
+- 0.1.2
+- 0.1.3
+- 0.1.4
+
+## 获取地址
+
+- Cargo 安装：`cargo add build-context`
+- 下载页面：https://crates.io/crates/build-context
+- 最低 Rust 版本：1.31

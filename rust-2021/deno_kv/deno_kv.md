@@ -1,0 +1,35 @@
+# deno_kv
+
+> 标签: Rust
+
+## 简介
+
+Implementation of the Deno database API
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/deno_kv
+- 源码仓库：https://github.com/denoland/deno
+
+## 历史版本号
+
+- 当前版本：0.167.0
+
+- 0.156.0
+- 0.157.0
+- 0.158.0
+- 0.159.0
+- 0.160.0
+- 0.161.0
+- 0.162.0
+- 0.163.0
+- 0.164.0
+- 0.165.0
+- 0.166.0
+- 0.167.0
+- 共 166 个版本，完整清单见 crates.io。
+
+## 获取地址
+
+- Cargo 安装：`cargo add deno_kv`
+- 下载页面：https://crates.io/crates/deno_kv

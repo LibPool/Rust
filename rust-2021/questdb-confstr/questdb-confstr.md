@@ -1,0 +1,24 @@
+# questdb-confstr
+
+> 标签: Rust
+
+## 简介
+
+A parser for a configuration string format handling service names and parameters
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/questdb-confstr
+- 源码仓库：https://github.com/questdb/questdb-confstr-rs
+
+## 历史版本号
+
+- 当前版本：0.1.1
+
+- 0.1.0
+- 0.1.1
+
+## 获取地址
+
+- Cargo 安装：`cargo add questdb-confstr`
+- 下载页面：https://crates.io/crates/questdb-confstr
