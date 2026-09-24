@@ -1,0 +1,24 @@
+# arama-ui-layout
+
+> 标签: Rust
+
+## 简介
+
+arama-ui-layout - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/arama-ui-layout
+
+## 历史版本号
+
+- 当前版本：0.36.2
+
+- 0.36.1
+- 0.36.2
+
+## 获取地址
+
+- Cargo 安装：`cargo add arama-ui-layout`
+- 下载页面：https://crates.io/crates/arama-ui-layout
+- 最低 Rust 版本：1.90

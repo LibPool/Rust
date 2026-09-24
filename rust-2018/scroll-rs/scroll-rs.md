@@ -1,0 +1,26 @@
+# scroll-rs
+
+> 标签: Rust
+
+## 简介
+
+scroll-rs - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/scroll-rs
+
+## 历史版本号
+
+- 当前版本：0.2.3
+
+- 0.2.0
+- 0.2.1
+- 0.2.2
+- 0.2.3
+
+## 获取地址
+
+- Cargo 安装：`cargo add scroll-rs`
+- 下载页面：https://crates.io/crates/scroll-rs
+- 最低 Rust 版本：1.79
