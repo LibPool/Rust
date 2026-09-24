@@ -20,6 +20,7 @@ import json
 import re
 import subprocess
 import sys
+import tarfile
 import time
 import urllib.parse
 from collections import defaultdict
@@ -91,16 +92,12 @@ def index_names(index_dir: Path) -> list[str]:
     return names
 
 
-def parse_crate_file(path: Path) -> dict:
-    """Parse a single official index file into compact library metadata."""
+def parse_crate_text(text: str) -> dict:
+    """Parse an official index file body into compact library metadata."""
     versions: list[str] = []
     editions: set[str] = set()
     rust_versions: list[str] = []
     name = ""
-    try:
-        text = path.read_text(encoding="utf-8", errors="replace")
-    except Exception:
-        return {}
     for line in text.splitlines():
         if not line.strip():
             continue
@@ -131,6 +128,29 @@ def parse_crate_file(path: Path) -> dict:
         "edition": min_edition,
         "rust_version": rust_versions[-1] if rust_versions else "",
     }
+
+
+def parse_crate_file(path: Path) -> dict:
+    """Parse a single official index file checked out from git."""
+    try:
+        text = path.read_text(encoding="utf-8", errors="replace")
+    except Exception:
+        return {}
+    return parse_crate_text(text)
+
+
+def crate_name_from_member(member: tarfile.TarInfo) -> str:
+    """Return the crate name for an index file member, or an empty string."""
+    if not member.isfile():
+        return ""
+    path = member.name.replace("\\", "/")
+    parts = path.split("/")
+    if len(parts) < 3:
+        return ""
+    name = parts[-1]
+    if not name or name == "config.json" or name.startswith("."):
+        return ""
+    return name
 
 
 def edition_dirs(edition: str) -> list[str]:
@@ -221,7 +241,7 @@ def write_rust_readme(counts: dict[str, int], total: int) -> None:
         "## 生成方式",
         "",
         "```bash",
-        "python tools/generate_full_index.py --index D:/Temp/libpool-crates-index",
+        "python tools/generate_full_index.py --index D:/Temp/crates-index-master.tar.gz",
         "```",
         "",
         "按 Edition 统计：",
@@ -243,6 +263,74 @@ def count_editions() -> dict[str, int]:
     return counts
 
 
+def generate_from_tarball(args: argparse.Namespace, cache: dict) -> int:
+    generated = load_state()
+    counts = {release: 0 for release in RUST_RELEASES}
+    started = len(generated)
+    print(f"Resuming with {started:,} already-generated crates", flush=True)
+
+    names: list[str] = []
+    done = 0
+    skipped = 0
+    if not args.max_crates and (args.rebuild_names or not NAMES_PATH.exists()):
+        with tarfile.open(args.index, "r:gz") as tar:
+            for member in tar:
+                name = crate_name_from_member(member)
+                if name:
+                    names.append(name)
+        NAMES_PATH.parent.mkdir(parents=True, exist_ok=True)
+        NAMES_PATH.write_text("\n".join(names) + "\n", encoding="utf-8")
+        print(f"Official index has {len(names):,} crate files", flush=True)
+
+    with tarfile.open(args.index, "r:gz") as tar:
+        for member in tar:
+            if done % args.checkpoint_every == 0 and done:
+                save_state(generated)
+                print(f"  generated {done:,}; {len(generated):,} total", flush=True)
+            name = crate_name_from_member(member)
+            if not name:
+                continue
+            if name in generated:
+                continue
+            if args.max_crates and done >= args.max_crates:
+                break
+            done += 1
+            raw = tar.extractfile(member)
+            if raw is None:
+                skipped += 1
+                generated.add(name)
+                continue
+            text = raw.read().decode("utf-8", errors="replace")
+            meta = parse_crate_text(text)
+            if not meta:
+                skipped += 1
+                generated.add(name)
+                continue
+            entry = cache.get(name)
+            text_md = readme_md(meta, entry)
+            for release in edition_dirs(meta["edition"]):
+                target = args.out / release / name
+                try:
+                    target.mkdir(parents=True, exist_ok=True)
+                    md = target / f"{name}.md"
+                    if not md.exists():
+                        md.write_text(text_md, encoding="utf-8")
+                    counts[release] += 1
+                except Exception as exc:
+                    print(f"  write error {target}: {exc}", flush=True)
+            generated.add(name)
+            if args.max_crates and done >= args.max_crates * 20:
+                # Keep smoke tests from streaming the entire 338k-file archive.
+                break
+
+    save_state(generated)
+    counts = count_editions()
+    write_rust_readme(counts, len(generated))
+    print("Edition counts:", json.dumps(counts, sort_keys=True), flush=True)
+    print(f"Done: {len(generated):,} crates (skipped {skipped:,})", flush=True)
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--index", type=Path, default=Path("D:/Temp/libpool-crates-index"))
@@ -254,13 +342,15 @@ def main() -> int:
 
     if args.rebuild_names and NAMES_PATH.exists():
         NAMES_PATH.unlink()
+    cache = load_cache()
+    if args.index.is_file() and args.index.suffix.lower() == ".gz":
+        return generate_from_tarball(args, cache)
     names = index_names(args.index)
     print(f"Official index has {len(names):,} crate files", flush=True)
     if args.max_crates:
         names = names[: args.max_crates]
         print(f"Smoke-test mode: processing {len(names):,} crates", flush=True)
 
-    cache = load_cache()
     generated = load_state()
     counts = {release: 0 for release in RUST_RELEASES}
     started = len(generated)
