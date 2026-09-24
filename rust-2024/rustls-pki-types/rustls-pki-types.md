@@ -1,0 +1,39 @@
+# rustls-pki-types
+
+> 标签: Rust
+
+## 简介
+
+Shared types for the rustls PKI ecosystem
+
+## 官网
+
+- 官网：https://github.com/rustls/pki-types
+- crates.io 页面：https://crates.io/crates/rustls-pki-types
+- 文档：https://docs.rs/rustls-pki-types
+- 源码仓库：https://github.com/rustls/pki-types
+
+## 历史版本号
+
+- 当前版本：1.15.1
+
+- 1.10.0
+- 1.10.1
+- 1.11.0
+- 1.12.0
+- 1.13.0
+- 1.13.1
+- 1.13.2
+- 1.13.3
+- 1.14.0
+- 1.14.1
+- 1.15.0
+- 1.15.1
+- 共 32 个版本，完整清单见 crates.io。
+
+## 获取地址
+
+- Cargo 安装：`cargo add rustls-pki-types`
+- 下载页面：https://crates.io/crates/rustls-pki-types
+- 文档：https://docs.rs/rustls-pki-types
+- 最低 Rust 版本：1.60

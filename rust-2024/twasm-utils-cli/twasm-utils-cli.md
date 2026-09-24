@@ -1,0 +1,22 @@
+# twasm-utils-cli
+
+> 标签: Rust
+
+## 简介
+
+twasm-utils-cli - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/twasm-utils-cli
+
+## 历史版本号
+
+- 当前版本：0.6.0
+
+- 0.6.0
+
+## 获取地址
+
+- Cargo 安装：`cargo add twasm-utils-cli`
+- 下载页面：https://crates.io/crates/twasm-utils-cli

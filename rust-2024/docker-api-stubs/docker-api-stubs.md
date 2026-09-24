@@ -1,0 +1,29 @@
+# docker-api-stubs
+
+> 标签: Rust
+
+## 简介
+
+Generated Docker API swagger stubs for use in docker-api
+
+## 官网
+
+- 官网：https://github.com/vv9k/docker-api-rs
+- crates.io 页面：https://crates.io/crates/docker-api-stubs
+- 文档：https://docs.rs/docker-api-stubs
+- 源码仓库：https://github.com/vv9k/docker-api-rs
+
+## 历史版本号
+
+- 当前版本：0.5.0
+
+- 0.2.0
+- 0.3.0
+- 0.4.0
+- 0.5.0
+
+## 获取地址
+
+- Cargo 安装：`cargo add docker-api-stubs`
+- 下载页面：https://crates.io/crates/docker-api-stubs
+- 文档：https://docs.rs/docker-api-stubs

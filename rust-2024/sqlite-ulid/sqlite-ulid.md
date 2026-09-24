@@ -1,0 +1,28 @@
+# sqlite-ulid
+
+> 标签: Rust
+
+## 简介
+
+sqlite-ulid - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/sqlite-ulid
+
+## 历史版本号
+
+- 当前版本：0.2.2-alpha.1
+
+- 0.2.1-alpha.14
+- 0.2.1-alpha.15
+- 0.2.1-alpha.17
+- 0.2.1-alpha.18
+- 0.2.1-alpha.19
+- 0.2.1
+- 0.2.2-alpha.1
+
+## 获取地址
+
+- Cargo 安装：`cargo add sqlite-ulid`
+- 下载页面：https://crates.io/crates/sqlite-ulid

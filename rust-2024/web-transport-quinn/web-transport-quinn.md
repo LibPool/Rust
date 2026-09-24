@@ -1,0 +1,35 @@
+# web-transport-quinn
+
+> 标签: Rust
+
+## 简介
+
+WebTransport library for Quinn
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/web-transport-quinn
+- 源码仓库：https://github.com/moq-dev/web-transport
+
+## 历史版本号
+
+- 当前版本：0.12.1
+
+- 0.11.3
+- 0.11.4
+- 0.11.5
+- 0.11.6
+- 0.11.7
+- 0.11.8
+- 0.11.9
+- 0.11.10
+- 0.11.11
+- 0.11.12
+- 0.12.0
+- 0.12.1
+- 共 37 个版本，完整清单见 crates.io。
+
+## 获取地址
+
+- Cargo 安装：`cargo add web-transport-quinn`
+- 下载页面：https://crates.io/crates/web-transport-quinn

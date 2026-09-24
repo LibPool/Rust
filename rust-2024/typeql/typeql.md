@@ -1,0 +1,34 @@
+# typeql
+
+> 标签: Rust
+
+## 简介
+
+typeql - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/typeql
+
+## 历史版本号
+
+- 当前版本：3.13.4
+
+- 3.8.4-rc0
+- 3.10.0
+- 3.10.1
+- 3.10.4
+- 3.11.0-rc0
+- 3.11.0
+- 3.12.0-rc0
+- 3.12.0
+- 3.12.2
+- 3.13.0-rc0
+- 3.13.0
+- 3.13.4
+- 共 44 个版本，完整清单见 crates.io。
+
+## 获取地址
+
+- Cargo 安装：`cargo add typeql`
+- 下载页面：https://crates.io/crates/typeql

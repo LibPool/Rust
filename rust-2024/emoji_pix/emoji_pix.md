@@ -1,0 +1,24 @@
+# emoji_pix
+
+> 标签: Rust
+
+## 简介
+
+emoji_pix - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/emoji_pix
+
+## 历史版本号
+
+- 当前版本：0.2.1
+
+- 0.1.0
+- 0.2.0
+- 0.2.1
+
+## 获取地址
+
+- Cargo 安装：`cargo add emoji_pix`
+- 下载页面：https://crates.io/crates/emoji_pix

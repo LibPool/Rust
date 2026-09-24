@@ -1,0 +1,22 @@
+# rez-next-suites
+
+> 标签: Rust
+
+## 简介
+
+rez-next-suites - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/rez-next-suites
+
+## 历史版本号
+
+- 当前版本：0.3.0
+
+- 0.3.0
+
+## 获取地址
+
+- Cargo 安装：`cargo add rez-next-suites`
+- 下载页面：https://crates.io/crates/rez-next-suites

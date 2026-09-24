@@ -1,0 +1,34 @@
+# rspack_tracing_perfetto
+
+> 标签: Rust
+
+## 简介
+
+rspack_tracing_perfetto - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/rspack_tracing_perfetto
+
+## 历史版本号
+
+- 当前版本：0.102.7
+
+- 0.101.10
+- 0.102.0-beta.0
+- 0.102.0-beta.1
+- 0.102.0-rc.0
+- 0.102.0
+- 0.102.1
+- 0.102.2
+- 0.102.3
+- 0.102.4
+- 0.102.5
+- 0.102.6
+- 0.102.7
+- 共 84 个版本，完整清单见 crates.io。
+
+## 获取地址
+
+- Cargo 安装：`cargo add rspack_tracing_perfetto`
+- 下载页面：https://crates.io/crates/rspack_tracing_perfetto
