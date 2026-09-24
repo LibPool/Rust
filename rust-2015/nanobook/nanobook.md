@@ -1,0 +1,35 @@
+# nanobook
+
+> 标签: Rust
+
+## 简介
+
+nanobook - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/nanobook
+
+## 历史版本号
+
+- 当前版本：0.18.1
+
+- 0.9.0
+- 0.9.1
+- 0.9.2
+- 0.9.3
+- 0.10.0
+- 0.12.0
+- 0.14.0
+- 0.16.2
+- 0.17.0
+- 0.17.2
+- 0.18.0
+- 0.18.1
+- 共 20 个版本，完整清单见 crates.io。
+
+## 获取地址
+
+- Cargo 安装：`cargo add nanobook`
+- 下载页面：https://crates.io/crates/nanobook
+- 最低 Rust 版本：1.88

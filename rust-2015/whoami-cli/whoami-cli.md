@@ -1,0 +1,27 @@
+# whoami-cli
+
+> 标签: Rust
+
+## 简介
+
+whoami-cli - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/whoami-cli
+
+## 历史版本号
+
+- 当前版本：20260723.0.1
+
+- 20260330.0.0
+- 20260330.0.1
+- 20260331.0.0
+- 20260331.0.1
+- 20260723.0.0
+- 20260723.0.1
+
+## 获取地址
+
+- Cargo 安装：`cargo add whoami-cli`
+- 下载页面：https://crates.io/crates/whoami-cli

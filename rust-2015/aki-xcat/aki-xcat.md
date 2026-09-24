@@ -1,0 +1,35 @@
+# aki-xcat
+
+> 标签: Rust
+
+## 简介
+
+aki-xcat - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/aki-xcat
+
+## 历史版本号
+
+- 当前版本：0.2.2
+
+- 0.1.28
+- 0.1.29
+- 0.1.30
+- 0.1.31
+- 0.1.32
+- 0.1.33
+- 0.1.34
+- 0.1.35
+- 0.1.36
+- 0.2.0
+- 0.2.1
+- 0.2.2
+- 共 30 个版本，完整清单见 crates.io。
+
+## 获取地址
+
+- Cargo 安装：`cargo add aki-xcat`
+- 下载页面：https://crates.io/crates/aki-xcat
+- 最低 Rust 版本：1.75.0

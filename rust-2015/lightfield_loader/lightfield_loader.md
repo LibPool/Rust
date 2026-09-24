@@ -1,0 +1,24 @@
+# lightfield_loader
+
+> 标签: Rust
+
+## 简介
+
+lightfield_loader - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/lightfield_loader
+
+## 历史版本号
+
+- 当前版本：0.3.0
+
+- 0.1.0
+- 0.2.0
+- 0.3.0
+
+## 获取地址
+
+- Cargo 安装：`cargo add lightfield_loader`
+- 下载页面：https://crates.io/crates/lightfield_loader

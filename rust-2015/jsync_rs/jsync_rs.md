@@ -1,0 +1,23 @@
+# jsync_rs
+
+> 标签: Rust
+
+## 简介
+
+jsync_rs - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/jsync_rs
+
+## 历史版本号
+
+- 当前版本：0.1.0
+
+- 0.1.0
+
+## 获取地址
+
+- Cargo 安装：`cargo add jsync_rs`
+- 下载页面：https://crates.io/crates/jsync_rs
+- 最低 Rust 版本：1.85

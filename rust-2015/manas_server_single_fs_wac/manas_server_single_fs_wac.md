@@ -1,0 +1,22 @@
+# manas_server_single_fs_wac
+
+> 标签: Rust
+
+## 简介
+
+manas_server_single_fs_wac - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/manas_server_single_fs_wac
+
+## 历史版本号
+
+- 当前版本：0.1.0
+
+- 0.1.0
+
+## 获取地址
+
+- Cargo 安装：`cargo add manas_server_single_fs_wac`
+- 下载页面：https://crates.io/crates/manas_server_single_fs_wac

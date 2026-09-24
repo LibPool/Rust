@@ -1,0 +1,28 @@
+# wdio-dioxus-bridge
+
+> 标签: Rust
+
+## 简介
+
+wdio-dioxus-bridge - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/wdio-dioxus-bridge
+
+## 历史版本号
+
+- 当前版本：1.0.0
+
+- 1.0.0-next.0
+- 1.0.0-next.1
+- 1.0.0-next.2
+- 1.0.0-next.3
+- 1.0.0-next.4
+- 1.0.0
+
+## 获取地址
+
+- Cargo 安装：`cargo add wdio-dioxus-bridge`
+- 下载页面：https://crates.io/crates/wdio-dioxus-bridge
+- 最低 Rust 版本：1.77.2

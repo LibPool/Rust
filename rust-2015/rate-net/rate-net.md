@@ -1,0 +1,25 @@
+# rate-net
+
+> 标签: Rust
+
+## 简介
+
+rate-net - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/rate-net
+
+## 历史版本号
+
+- 当前版本：1.0.0
+
+- 0.9.0
+- 0.9.5
+- 1.0.0
+
+## 获取地址
+
+- Cargo 安装：`cargo add rate-net`
+- 下载页面：https://crates.io/crates/rate-net
+- 最低 Rust 版本：1.85
