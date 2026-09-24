@@ -1,0 +1,27 @@
+# centaur_technical_indicators
+
+> 标签: Rust
+
+## 简介
+
+centaur_technical_indicators - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/centaur_technical_indicators
+
+## 历史版本号
+
+- 当前版本：1.3.0
+
+- 1.0.0
+- 1.2.0
+- 1.2.1
+- 1.2.2
+- 1.3.0
+
+## 获取地址
+
+- Cargo 安装：`cargo add centaur_technical_indicators`
+- 下载页面：https://crates.io/crates/centaur_technical_indicators
+- 最低 Rust 版本：1.81

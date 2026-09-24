@@ -1,0 +1,39 @@
+# dsn
+
+> 标签: Rust
+
+## 简介
+
+DSN (Data Source Name) parser
+
+## 官网
+
+- 官网：https://docs.rs/dsn/latest/dsn/
+- crates.io 页面：https://crates.io/crates/dsn
+- 文档：https://docs.rs/dsn/latest/dsn/
+- 源码仓库：https://github.com/nbari/dsn
+
+## 历史版本号
+
+- 当前版本：1.3.0
+
+- 0.2.0
+- 0.2.1
+- 0.3.0
+- 0.4.0
+- 0.4.1
+- 1.0.0
+- 1.0.1
+- 1.0.2
+- 1.1.0
+- 1.1.1
+- 1.2.1
+- 1.3.0
+- 共 15 个版本，完整清单见 crates.io。
+
+## 获取地址
+
+- Cargo 安装：`cargo add dsn`
+- 下载页面：https://crates.io/crates/dsn
+- 文档：https://docs.rs/dsn/latest/dsn/
+- 最低 Rust 版本：1.85

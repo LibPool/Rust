@@ -1,0 +1,35 @@
+# openrtc-tauri-plugin
+
+> 标签: Rust
+
+## 简介
+
+openrtc-tauri-plugin - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/openrtc-tauri-plugin
+
+## 历史版本号
+
+- 当前版本：2.8.8
+
+- 2.5.4
+- 2.6.0
+- 2.7.0
+- 2.8.0
+- 2.8.1
+- 2.8.2
+- 2.8.3
+- 2.8.4
+- 2.8.5
+- 2.8.6
+- 2.8.7
+- 2.8.8
+- 共 67 个版本，完整清单见 crates.io。
+
+## 获取地址
+
+- Cargo 安装：`cargo add openrtc-tauri-plugin`
+- 下载页面：https://crates.io/crates/openrtc-tauri-plugin
+- 最低 Rust 版本：1.91

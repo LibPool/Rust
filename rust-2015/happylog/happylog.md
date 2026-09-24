@@ -1,0 +1,30 @@
+# happylog
+
+> 标签: Rust
+
+## 简介
+
+happylog - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/happylog
+
+## 历史版本号
+
+- 当前版本：0.3.0-b8
+
+- 0.1.0
+- 0.2.0
+- 0.3.0-b1
+- 0.3.0-b2
+- 0.3.0-b3
+- 0.3.0-b4
+- 0.3.0-b6
+- 0.3.0-b7
+- 0.3.0-b8
+
+## 获取地址
+
+- Cargo 安装：`cargo add happylog`
+- 下载页面：https://crates.io/crates/happylog

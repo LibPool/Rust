@@ -1,0 +1,24 @@
+# vector_operations
+
+> 标签: Rust
+
+## 简介
+
+vector_operations - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/vector_operations
+
+## 历史版本号
+
+- 当前版本：1.1.0
+
+- 0.1.0
+- 1.0.0
+- 1.1.0
+
+## 获取地址
+
+- Cargo 安装：`cargo add vector_operations`
+- 下载页面：https://crates.io/crates/vector_operations

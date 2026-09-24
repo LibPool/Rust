@@ -1,0 +1,2731 @@
+[
+  {
+    "name": "serde",
+    "tags": [
+      "序列化",
+      "反序列化"
+    ]
+  },
+  {
+    "name": "serde_json",
+    "tags": [
+      "JSON",
+      "序列化"
+    ]
+  },
+  {
+    "name": "serde_yaml",
+    "tags": [
+      "YAML",
+      "序列化"
+    ]
+  },
+  {
+    "name": "serde_cbor",
+    "tags": [
+      "CBOR",
+      "序列化"
+    ]
+  },
+  {
+    "name": "bincode",
+    "tags": [
+      "二进制",
+      "序列化"
+    ]
+  },
+  {
+    "name": "postcard",
+    "tags": [
+      "嵌入式",
+      "二进制"
+    ]
+  },
+  {
+    "name": "rmp-serde",
+    "tags": [
+      "MessagePack",
+      "序列化"
+    ]
+  },
+  {
+    "name": "ciborium",
+    "tags": [
+      "CBOR",
+      "序列化"
+    ]
+  },
+  {
+    "name": "bson",
+    "tags": [
+      "BSON",
+      "MongoDB"
+    ]
+  },
+  {
+    "name": "avro-rs",
+    "tags": [
+      "Avro",
+      "大数据"
+    ]
+  },
+  {
+    "name": "flatbuffers",
+    "tags": [
+      "序列化",
+      "高性能"
+    ]
+  },
+  {
+    "name": "capnp",
+    "tags": [
+      "Cap'n Proto",
+      "RPC"
+    ]
+  },
+  {
+    "name": "prost",
+    "tags": [
+      "Protobuf",
+      "gRPC"
+    ]
+  },
+  {
+    "name": "tonic",
+    "tags": [
+      "gRPC",
+      "RPC"
+    ]
+  },
+  {
+    "name": "tokio",
+    "tags": [
+      "异步",
+      "运行时"
+    ]
+  },
+  {
+    "name": "tokio-util",
+    "tags": [
+      "异步",
+      "工具库"
+    ]
+  },
+  {
+    "name": "tokio-stream",
+    "tags": [
+      "异步",
+      "流"
+    ]
+  },
+  {
+    "name": "async-std",
+    "tags": [
+      "异步",
+      "运行时"
+    ]
+  },
+  {
+    "name": "smol",
+    "tags": [
+      "异步",
+      "轻量"
+    ]
+  },
+  {
+    "name": "futures",
+    "tags": [
+      "异步",
+      "Stream"
+    ]
+  },
+  {
+    "name": "futures-util",
+    "tags": [
+      "异步",
+      "工具库"
+    ]
+  },
+  {
+    "name": "async-trait",
+    "tags": [
+      "异步",
+      "trait"
+    ]
+  },
+  {
+    "name": "async-channel",
+    "tags": [
+      "异步",
+      "通道"
+    ]
+  },
+  {
+    "name": "event-listener",
+    "tags": [
+      "异步",
+      "事件"
+    ]
+  },
+  {
+    "name": "flume",
+    "tags": [
+      "通道",
+      "并发"
+    ]
+  },
+  {
+    "name": "crossbeam",
+    "tags": [
+      "并发",
+      "工具库"
+    ]
+  },
+  {
+    "name": "crossbeam-channel",
+    "tags": [
+      "通道",
+      "并发"
+    ]
+  },
+  {
+    "name": "crossbeam-epoch",
+    "tags": [
+      "并发",
+      "虚拟机内存"
+    ]
+  },
+  {
+    "name": "parking_lot",
+    "tags": [
+      "锁",
+      "并发"
+    ]
+  },
+  {
+    "name": "dashmap",
+    "tags": [
+      "并发",
+      "Map"
+    ]
+  },
+  {
+    "name": "once_cell",
+    "tags": [
+      "惰性初始化",
+      "并发"
+    ]
+  },
+  {
+    "name": "lazy_static",
+    "tags": [
+      "惰性初始化",
+      "静态"
+    ]
+  },
+  {
+    "name": "moka",
+    "tags": [
+      "缓存",
+      "高性能"
+    ]
+  },
+  {
+    "name": "cached",
+    "tags": [
+      "缓存",
+      "宏"
+    ]
+  },
+  {
+    "name": "lru",
+    "tags": [
+      "缓存",
+      "LRU"
+    ]
+  },
+  {
+    "name": "r2d2",
+    "tags": [
+      "连接池",
+      "数据库"
+    ]
+  },
+  {
+    "name": "deadpool",
+    "tags": [
+      "连接池",
+      "异步"
+    ]
+  },
+  {
+    "name": "mobc",
+    "tags": [
+      "连接池",
+      "异步"
+    ]
+  },
+  {
+    "name": "bb8",
+    "tags": [
+      "连接池",
+      "异步"
+    ]
+  },
+  {
+    "name": "rayon",
+    "tags": [
+      "并行",
+      "数据并行"
+    ]
+  },
+  {
+    "name": "num_cpus",
+    "tags": [
+      "CPU",
+      "系统信息"
+    ]
+  },
+  {
+    "name": "threadpool",
+    "tags": [
+      "线程池",
+      "并发"
+    ]
+  },
+  {
+    "name": "scoped_threadpool",
+    "tags": [
+      "线程",
+      "作用域"
+    ]
+  },
+  {
+    "name": "regex",
+    "tags": [
+      "正则",
+      "文本"
+    ]
+  },
+  {
+    "name": "fancy-regex",
+    "tags": [
+      "正则",
+      "回溯"
+    ]
+  },
+  {
+    "name": "pest",
+    "tags": [
+      "解析器",
+      "语法"
+    ]
+  },
+  {
+    "name": "nom",
+    "tags": [
+      "解析器",
+      "组合子"
+    ]
+  },
+  {
+    "name": "combine",
+    "tags": [
+      "解析器",
+      "组合子"
+    ]
+  },
+  {
+    "name": "winnow",
+    "tags": [
+      "解析器",
+      "速度快"
+    ]
+  },
+  {
+    "name": "chumsky",
+    "tags": [
+      "解析器",
+      "类型安全"
+    ]
+  },
+  {
+    "name": "logos",
+    "tags": [
+      "词法分析",
+      "解析器"
+    ]
+  },
+  {
+    "name": "lalrpop",
+    "tags": [
+      "LALR",
+      "解析器生成"
+    ]
+  },
+  {
+    "name": "sqlparser",
+    "tags": [
+      "SQL",
+      "解析器"
+    ]
+  },
+  {
+    "name": "heck",
+    "tags": [
+      "命名转换",
+      "大小写"
+    ]
+  },
+  {
+    "name": "convert_case",
+    "tags": [
+      "命名转换",
+      "工具库"
+    ]
+  },
+  {
+    "name": "inflector",
+    "tags": [
+      "命名转换",
+      "语言"
+    ]
+  },
+  {
+    "name": "slug",
+    "tags": [
+      "URL",
+      "Slug"
+    ]
+  },
+  {
+    "name": "unicode-segmentation",
+    "tags": [
+      "Unicode",
+      "文本"
+    ]
+  },
+  {
+    "name": "unicode-normalization",
+    "tags": [
+      "Unicode",
+      "文本"
+    ]
+  },
+  {
+    "name": "unicode-width",
+    "tags": [
+      "Unicode",
+      "宽度"
+    ]
+  },
+  {
+    "name": "html-escape",
+    "tags": [
+      "HTML",
+      "转义"
+    ]
+  },
+  {
+    "name": "url",
+    "tags": [
+      "URL",
+      "解析"
+    ]
+  },
+  {
+    "name": "percent-encoding",
+    "tags": [
+      "URL",
+      "编码"
+    ]
+  },
+  {
+    "name": "data-encoding",
+    "tags": [
+      "编码",
+      "Base64"
+    ]
+  },
+  {
+    "name": "base64",
+    "tags": [
+      "Base64",
+      "编码"
+    ]
+  },
+  {
+    "name": "hex",
+    "tags": [
+      "十六进制",
+      "编码"
+    ]
+  },
+  {
+    "name": "http",
+    "tags": [
+      "HTTP",
+      "协议"
+    ]
+  },
+  {
+    "name": "http-body",
+    "tags": [
+      "HTTP",
+      "请求体"
+    ]
+  },
+  {
+    "name": "hyper",
+    "tags": [
+      "HTTP",
+      "服务器"
+    ]
+  },
+  {
+    "name": "reqwest",
+    "tags": [
+      "HTTP",
+      "客户端"
+    ]
+  },
+  {
+    "name": "ureq",
+    "tags": [
+      "HTTP",
+      "客户端",
+      "轻量"
+    ]
+  },
+  {
+    "name": "minreq",
+    "tags": [
+      "HTTP",
+      "客户端",
+      "轻量"
+    ]
+  },
+  {
+    "name": "axum",
+    "tags": [
+      "Web框架",
+      "异步"
+    ]
+  },
+  {
+    "name": "actix-web",
+    "tags": [
+      "Web框架",
+      "异步"
+    ]
+  },
+  {
+    "name": "actix-rt",
+    "tags": [
+      "异步",
+      "运行时"
+    ]
+  },
+  {
+    "name": "rocket",
+    "tags": [
+      "Web框架"
+    ]
+  },
+  {
+    "name": "warp",
+    "tags": [
+      "Web框架",
+      "过滤器"
+    ]
+  },
+  {
+    "name": "tide",
+    "tags": [
+      "Web框架",
+      "异步"
+    ]
+  },
+  {
+    "name": "salvo",
+    "tags": [
+      "Web框架",
+      "异步"
+    ]
+  },
+  {
+    "name": "poem",
+    "tags": [
+      "Web框架",
+      "异步"
+    ]
+  },
+  {
+    "name": "tower",
+    "tags": [
+      "中间件",
+      "服务"
+    ]
+  },
+  {
+    "name": "tower-http",
+    "tags": [
+      "HTTP",
+      "中间件"
+    ]
+  },
+  {
+    "name": "headers",
+    "tags": [
+      "HTTP",
+      "请求头"
+    ]
+  },
+  {
+    "name": "cookie",
+    "tags": [
+      "Cookie",
+      "HTTP"
+    ]
+  },
+  {
+    "name": "cookie_store",
+    "tags": [
+      "Cookie",
+      "会话"
+    ]
+  },
+  {
+    "name": "multer",
+    "tags": [
+      "文件上传",
+      "HTTP"
+    ]
+  },
+  {
+    "name": "mime",
+    "tags": [
+      "MIME",
+      "类型"
+    ]
+  },
+  {
+    "name": "mime_guess",
+    "tags": [
+      "MIME",
+      "文件扩展名"
+    ]
+  },
+  {
+    "name": "validator",
+    "tags": [
+      "数据校验",
+      "表单"
+    ]
+  },
+  {
+    "name": "garde",
+    "tags": [
+      "数据校验",
+      "表单"
+    ]
+  },
+  {
+    "name": "jsonwebtoken",
+    "tags": [
+      "JWT",
+      "安全"
+    ]
+  },
+  {
+    "name": "oauth2",
+    "tags": [
+      "OAuth",
+      "认证"
+    ]
+  },
+  {
+    "name": "openidconnect",
+    "tags": [
+      "OpenID",
+      "认证"
+    ]
+  },
+  {
+    "name": "argon2",
+    "tags": [
+      "密码哈希",
+      "安全"
+    ]
+  },
+  {
+    "name": "bcrypt",
+    "tags": [
+      "密码哈希",
+      "安全"
+    ]
+  },
+  {
+    "name": "scrypt",
+    "tags": [
+      "密码哈希",
+      "安全"
+    ]
+  },
+  {
+    "name": "ring",
+    "tags": [
+      "加密",
+      "安全"
+    ]
+  },
+  {
+    "name": "openssl",
+    "tags": [
+      "OpenSSL",
+      "加密"
+    ]
+  },
+  {
+    "name": "rustls",
+    "tags": [
+      "TLS",
+      "安全"
+    ]
+  },
+  {
+    "name": "native-tls",
+    "tags": [
+      "TLS",
+      "OpenSSL"
+    ]
+  },
+  {
+    "name": "webpki",
+    "tags": [
+      "TLS",
+      "证书"
+    ]
+  },
+  {
+    "name": "rustls-pemfile",
+    "tags": [
+      "TLS",
+      "PEM"
+    ]
+  },
+  {
+    "name": "sha2",
+    "tags": [
+      "哈希",
+      "SHA-2"
+    ]
+  },
+  {
+    "name": "sha3",
+    "tags": [
+      "哈希",
+      "SHA-3"
+    ]
+  },
+  {
+    "name": "md5",
+    "tags": [
+      "哈希",
+      "MD5"
+    ]
+  },
+  {
+    "name": "blake2",
+    "tags": [
+      "哈希",
+      "BLAKE2"
+    ]
+  },
+  {
+    "name": "hmac",
+    "tags": [
+      "HMAC",
+      "哈希"
+    ]
+  },
+  {
+    "name": "aes",
+    "tags": [
+      "AES",
+      "对称加密"
+    ]
+  },
+  {
+    "name": "cbc",
+    "tags": [
+      "AES",
+      "分组模式"
+    ]
+  },
+  {
+    "name": "ctr",
+    "tags": [
+      "流密码",
+      "模式"
+    ]
+  },
+  {
+    "name": "cipher",
+    "tags": [
+      "加密",
+      "trait"
+    ]
+  },
+  {
+    "name": "rsa",
+    "tags": [
+      "RSA",
+      "非对称加密"
+    ]
+  },
+  {
+    "name": "ed25519-dalek",
+    "tags": [
+      "Ed25519",
+      "签名"
+    ]
+  },
+  {
+    "name": "curve25519-dalek",
+    "tags": [
+      "曲线加密",
+      "Ed25519"
+    ]
+  },
+  {
+    "name": "subtle",
+    "tags": [
+      "常量时间",
+      "安全"
+    ]
+  },
+  {
+    "name": "zeroize",
+    "tags": [
+      "内存擦除",
+      "安全"
+    ]
+  },
+  {
+    "name": "secrecy",
+    "tags": [
+      "秘密",
+      "内存安全"
+    ]
+  },
+  {
+    "name": "getrandom",
+    "tags": [
+      "随机数",
+      "系统"
+    ]
+  },
+  {
+    "name": "rand",
+    "tags": [
+      "随机数",
+      "工具库"
+    ]
+  },
+  {
+    "name": "rand_core",
+    "tags": [
+      "随机数",
+      "核心"
+    ]
+  },
+  {
+    "name": "uuid",
+    "tags": [
+      "UUID",
+      "标识符"
+    ]
+  },
+  {
+    "name": "nanoid",
+    "tags": [
+      "ID生成",
+      "标识符"
+    ]
+  },
+  {
+    "name": "chrono",
+    "tags": [
+      "日期时间",
+      "时区"
+    ]
+  },
+  {
+    "name": "time",
+    "tags": [
+      "日期时间",
+      "高性能"
+    ]
+  },
+  {
+    "name": "jiff",
+    "tags": [
+      "日期时间",
+      "时区",
+      "高性能"
+    ]
+  },
+  {
+    "name": "humantime",
+    "tags": [
+      "时间",
+      "解析"
+    ]
+  },
+  {
+    "name": "humantime-serde",
+    "tags": [
+      "时间",
+      "序列化"
+    ]
+  },
+  {
+    "name": "timeago",
+    "tags": [
+      "时间",
+      "显示"
+    ]
+  },
+  {
+    "name": "num",
+    "tags": [
+      "数值",
+      "类型"
+    ]
+  },
+  {
+    "name": "num-traits",
+    "tags": [
+      "数值",
+      "trait"
+    ]
+  },
+  {
+    "name": "num-integer",
+    "tags": [
+      "整数",
+      "算法"
+    ]
+  },
+  {
+    "name": "num-bigint",
+    "tags": [
+      "大整数",
+      "数值"
+    ]
+  },
+  {
+    "name": "num-complex",
+    "tags": [
+      "复数",
+      "数值"
+    ]
+  },
+  {
+    "name": "bigdecimal",
+    "tags": [
+      "十进制",
+      "精度"
+    ]
+  },
+  {
+    "name": "rust_decimal",
+    "tags": [
+      "十进制",
+      "财务"
+    ]
+  },
+  {
+    "name": "ordered-float",
+    "tags": [
+      "浮点数",
+      "有序"
+    ]
+  },
+  {
+    "name": "csv",
+    "tags": [
+      "CSV",
+      "解析"
+    ]
+  },
+  {
+    "name": "quick-xml",
+    "tags": [
+      "XML",
+      "解析"
+    ]
+  },
+  {
+    "name": "roxmltree",
+    "tags": [
+      "XML",
+      "DOM"
+    ]
+  },
+  {
+    "name": "scraper",
+    "tags": [
+      "HTML",
+      "爬虫"
+    ]
+  },
+  {
+    "name": "select",
+    "tags": [
+      "HTML",
+      "查询"
+    ]
+  },
+  {
+    "name": "kuchiki",
+    "tags": [
+      "HTML",
+      "解析"
+    ]
+  },
+  {
+    "name": "html5ever",
+    "tags": [
+      "HTML5",
+      "解析"
+    ]
+  },
+  {
+    "name": "markdown",
+    "tags": [
+      "Markdown",
+      "解析"
+    ]
+  },
+  {
+    "name": "pulldown-cmark",
+    "tags": [
+      "Markdown",
+      "解析"
+    ]
+  },
+  {
+    "name": "comrak",
+    "tags": [
+      "Markdown",
+      "GFM"
+    ]
+  },
+  {
+    "name": "syntect",
+    "tags": [
+      "代码高亮",
+      "语法"
+    ]
+  },
+  {
+    "name": "tree-sitter",
+    "tags": [
+      "语法树",
+      "解析"
+    ]
+  },
+  {
+    "name": "lsp-types",
+    "tags": [
+      "LSP",
+      "语言服务器"
+    ]
+  },
+  {
+    "name": "tower-lsp",
+    "tags": [
+      "LSP",
+      "语言服务器"
+    ]
+  },
+  {
+    "name": "rust-analyzer",
+    "tags": [
+      "语言服务器",
+      "IDE"
+    ]
+  },
+  {
+    "name": "clap",
+    "tags": [
+      "命令行",
+      "CLI"
+    ]
+  },
+  {
+    "name": "argh",
+    "tags": [
+      "命令行",
+      "参数解析"
+    ]
+  },
+  {
+    "name": "structopt",
+    "tags": [
+      "命令行",
+      "结构体"
+    ]
+  },
+  {
+    "name": "lexopt",
+    "tags": [
+      "命令行",
+      "参数解析"
+    ]
+  },
+  {
+    "name": "pico-args",
+    "tags": [
+      "命令行",
+      "轻量"
+    ]
+  },
+  {
+    "name": "console",
+    "tags": [
+      "终端",
+      "输出"
+    ]
+  },
+  {
+    "name": "dialoguer",
+    "tags": [
+      "终端",
+      "交互"
+    ]
+  },
+  {
+    "name": "indicatif",
+    "tags": [
+      "进度条",
+      "终端"
+    ]
+  },
+  {
+    "name": "crossterm",
+    "tags": [
+      "终端",
+      "跨平台"
+    ]
+  },
+  {
+    "name": "ratatui",
+    "tags": [
+      "TUI",
+      "终端"
+    ]
+  },
+  {
+    "name": "tui",
+    "tags": [
+      "TUI",
+      "终端"
+    ]
+  },
+  {
+    "name": "termion",
+    "tags": [
+      "终端",
+      "原始模式"
+    ]
+  },
+  {
+    "name": "colored",
+    "tags": [
+      "终端",
+      "颜色"
+    ]
+  },
+  {
+    "name": "ansi_term",
+    "tags": [
+      "终端",
+      "ANSI"
+    ]
+  },
+  {
+    "name": "atty",
+    "tags": [
+      "终端",
+      "TTY"
+    ]
+  },
+  {
+    "name": "ctrlc",
+    "tags": [
+      "信号",
+      "中断"
+    ]
+  },
+  {
+    "name": "signal-hook",
+    "tags": [
+      "信号",
+      "跨平台"
+    ]
+  },
+  {
+    "name": "lsd",
+    "tags": [
+      "终端",
+      "文件列表"
+    ]
+  },
+  {
+    "name": "fd-find",
+    "tags": [
+      "文件查找",
+      "CLI"
+    ]
+  },
+  {
+    "name": "ripgrep",
+    "tags": [
+      "搜索",
+      "CLI"
+    ]
+  },
+  {
+    "name": "bat",
+    "tags": [
+      "终端",
+      "文件显示"
+    ]
+  },
+  {
+    "name": "exa",
+    "tags": [
+      "终端",
+      "文件列表"
+    ]
+  },
+  {
+    "name": "zellij",
+    "tags": [
+      "终端",
+      "多路复用"
+    ]
+  },
+  {
+    "name": "alacritty",
+    "tags": [
+      "终端",
+      "GPU"
+    ]
+  },
+  {
+    "name": "helix",
+    "tags": [
+      "编辑器",
+      "LSP"
+    ]
+  },
+  {
+    "name": "log",
+    "tags": [
+      "日志",
+      "门面"
+    ]
+  },
+  {
+    "name": "tracing",
+    "tags": [
+      "日志",
+      "追踪"
+    ]
+  },
+  {
+    "name": "tracing-subscriber",
+    "tags": [
+      "日志",
+      "订阅器"
+    ]
+  },
+  {
+    "name": "tracing-appender",
+    "tags": [
+      "日志",
+      "文件"
+    ]
+  },
+  {
+    "name": "env_logger",
+    "tags": [
+      "日志",
+      "环境变量"
+    ]
+  },
+  {
+    "name": "pretty_env_logger",
+    "tags": [
+      "日志",
+      "格式化"
+    ]
+  },
+  {
+    "name": "fern",
+    "tags": [
+      "日志",
+      "配置"
+    ]
+  },
+  {
+    "name": "log4rs",
+    "tags": [
+      "日志",
+      "配置"
+    ]
+  },
+  {
+    "name": "slog",
+    "tags": [
+      "日志",
+      "结构化"
+    ]
+  },
+  {
+    "name": "anyhow",
+    "tags": [
+      "错误处理",
+      "上下文"
+    ]
+  },
+  {
+    "name": "thiserror",
+    "tags": [
+      "错误处理",
+      "derive"
+    ]
+  },
+  {
+    "name": "color-eyre",
+    "tags": [
+      "错误处理",
+      "报告"
+    ]
+  },
+  {
+    "name": "eyre",
+    "tags": [
+      "错误处理",
+      "可定制"
+    ]
+  },
+  {
+    "name": "backtrace",
+    "tags": [
+      "错误处理",
+      "堆栈"
+    ]
+  },
+  {
+    "name": "panic-message",
+    "tags": [
+      "错误处理",
+      "panic"
+    ]
+  },
+  {
+    "name": "config",
+    "tags": [
+      "配置",
+      "格式"
+    ]
+  },
+  {
+    "name": "figment",
+    "tags": [
+      "配置",
+      "分层"
+    ]
+  },
+  {
+    "name": "dotenvy",
+    "tags": [
+      "配置",
+      "环境变量"
+    ]
+  },
+  {
+    "name": "secret-service",
+    "tags": [
+      "密钥",
+      "钥匙串"
+    ]
+  },
+  {
+    "name": "keyring",
+    "tags": [
+      "密钥",
+      "钥匙串"
+    ]
+  },
+  {
+    "name": "tempfile",
+    "tags": [
+      "文件",
+      "临时目录"
+    ]
+  },
+  {
+    "name": "fs2",
+    "tags": [
+      "文件",
+      "锁"
+    ]
+  },
+  {
+    "name": "memmap2",
+    "tags": [
+      "内存映射",
+      "文件"
+    ]
+  },
+  {
+    "name": "pathdiff",
+    "tags": [
+      "路径",
+      "相对路径"
+    ]
+  },
+  {
+    "name": "dirs",
+    "tags": [
+      "路径",
+      "用户目录"
+    ]
+  },
+  {
+    "name": "directories",
+    "tags": [
+      "路径",
+      "配置目录"
+    ]
+  },
+  {
+    "name": "shellexpand",
+    "tags": [
+      "路径",
+      "环境变量"
+    ]
+  },
+  {
+    "name": "which",
+    "tags": [
+      "路径",
+      "可执行文件"
+    ]
+  },
+  {
+    "name": "whoami",
+    "tags": [
+      "系统",
+      "用户"
+    ]
+  },
+  {
+    "name": "hostname",
+    "tags": [
+      "系统",
+      "主机名"
+    ]
+  },
+  {
+    "name": "sysinfo",
+    "tags": [
+      "系统信息",
+      "监控"
+    ]
+  },
+  {
+    "name": "glob",
+    "tags": [
+      "文件",
+      "通配符"
+    ]
+  },
+  {
+    "name": "walkdir",
+    "tags": [
+      "文件",
+      "遍历"
+    ]
+  },
+  {
+    "name": "ignore",
+    "tags": [
+      "文件",
+      "gitignore"
+    ]
+  },
+  {
+    "name": "notify",
+    "tags": [
+      "文件监听",
+      "事件"
+    ]
+  },
+  {
+    "name": "notify-rust",
+    "tags": [
+      "通知",
+      "桌面"
+    ]
+  },
+  {
+    "name": "libc",
+    "tags": [
+      "C语言",
+      "FFI"
+    ]
+  },
+  {
+    "name": "nix",
+    "tags": [
+      "Unix",
+      "系统调用"
+    ]
+  },
+  {
+    "name": "socket2",
+    "tags": [
+      "Socket",
+      "网络"
+    ]
+  },
+  {
+    "name": "mio",
+    "tags": [
+      "事件循环",
+      "非阻塞IO"
+    ]
+  },
+  {
+    "name": "tokio-tungstenite",
+    "tags": [
+      "WebSocket",
+      "异步"
+    ]
+  },
+  {
+    "name": "tungstenite",
+    "tags": [
+      "WebSocket"
+    ]
+  },
+  {
+    "name": "ws",
+    "tags": [
+      "WebSocket",
+      "轻量"
+    ]
+  },
+  {
+    "name": "quinn",
+    "tags": [
+      "QUIC",
+      "UDP"
+    ]
+  },
+  {
+    "name": "h2",
+    "tags": [
+      "HTTP/2",
+      "协议"
+    ]
+  },
+  {
+    "name": "h3",
+    "tags": [
+      "HTTP/3",
+      "协议"
+    ]
+  },
+  {
+    "name": "dns-lookup",
+    "tags": [
+      "DNS",
+      "解析"
+    ]
+  },
+  {
+    "name": "trust-dns-resolver",
+    "tags": [
+      "DNS",
+      "异步"
+    ]
+  },
+  {
+    "name": "ipnet",
+    "tags": [
+      "IP",
+      "网络"
+    ]
+  },
+  {
+    "name": "async-ip",
+    "tags": [
+      "IP",
+      "异步"
+    ]
+  },
+  {
+    "name": "sqlx",
+    "tags": [
+      "数据库",
+      "异步"
+    ]
+  },
+  {
+    "name": "diesel",
+    "tags": [
+      "ORM",
+      "数据库"
+    ]
+  },
+  {
+    "name": "diesel-async",
+    "tags": [
+      "ORM",
+      "异步"
+    ]
+  },
+  {
+    "name": "sea-orm",
+    "tags": [
+      "ORM",
+      "异步"
+    ]
+  },
+  {
+    "name": "sea-query",
+    "tags": [
+      "SQL",
+      "查询构建"
+    ]
+  },
+  {
+    "name": "rusqlite",
+    "tags": [
+      "SQLite",
+      "数据库"
+    ]
+  },
+  {
+    "name": "mysql",
+    "tags": [
+      "MySQL",
+      "驱动"
+    ]
+  },
+  {
+    "name": "mysql_async",
+    "tags": [
+      "MySQL",
+      "异步"
+    ]
+  },
+  {
+    "name": "postgres",
+    "tags": [
+      "PostgreSQL",
+      "驱动"
+    ]
+  },
+  {
+    "name": "tokio-postgres",
+    "tags": [
+      "PostgreSQL",
+      "异步"
+    ]
+  },
+  {
+    "name": "redis",
+    "tags": [
+      "Redis",
+      "客户端"
+    ]
+  },
+  {
+    "name": "fred",
+    "tags": [
+      "Redis",
+      "高性能"
+    ]
+  },
+  {
+    "name": "mongodb",
+    "tags": [
+      "MongoDB",
+      "驱动"
+    ]
+  },
+  {
+    "name": "cassandra-protocol",
+    "tags": [
+      "Cassandra",
+      "协议"
+    ]
+  },
+  {
+    "name": "scylla",
+    "tags": [
+      "Scylla",
+      "数据库"
+    ]
+  },
+  {
+    "name": "clickhouse",
+    "tags": [
+      "ClickHouse",
+      "客户端"
+    ]
+  },
+  {
+    "name": "influxdb",
+    "tags": [
+      "时序数据库",
+      "InfluxDB"
+    ]
+  },
+  {
+    "name": "elasticsearch",
+    "tags": [
+      "Elasticsearch",
+      "客户端"
+    ]
+  },
+  {
+    "name": "opensearch",
+    "tags": [
+      "OpenSearch",
+      "客户端"
+    ]
+  },
+  {
+    "name": "meilisearch-sdk",
+    "tags": [
+      "Meilisearch",
+      "搜索"
+    ]
+  },
+  {
+    "name": "tantivy",
+    "tags": [
+      "全文搜索",
+      "搜索引擎"
+    ]
+  },
+  {
+    "name": "quickwit",
+    "tags": [
+      "搜索",
+      "日志"
+    ]
+  },
+  {
+    "name": "arrow",
+    "tags": [
+      "Arrow",
+      "列式数据"
+    ]
+  },
+  {
+    "name": "parquet",
+    "tags": [
+      "Parquet",
+      "列式存储"
+    ]
+  },
+  {
+    "name": "polars",
+    "tags": [
+      "数据分析",
+      "DataFrame"
+    ]
+  },
+  {
+    "name": "datafusion",
+    "tags": [
+      "SQL",
+      "数据分析"
+    ]
+  },
+  {
+    "name": "duckdb",
+    "tags": [
+      "嵌入式数据库",
+      "OLAP"
+    ]
+  },
+  {
+    "name": "sled",
+    "tags": [
+      "嵌入式",
+      "键值存储"
+    ]
+  },
+  {
+    "name": "redb",
+    "tags": [
+      "嵌入式",
+      "事务"
+    ]
+  },
+  {
+    "name": "rocksdb",
+    "tags": [
+      "嵌入式",
+      "键值存储"
+    ]
+  },
+  {
+    "name": "leveldb",
+    "tags": [
+      "嵌入式",
+      "键值存储"
+    ]
+  },
+  {
+    "name": "surrealist",
+    "tags": [
+      "SurrealDB",
+      "工具"
+    ]
+  },
+  {
+    "name": "rdkafka",
+    "tags": [
+      "Kafka",
+      "消息队列"
+    ]
+  },
+  {
+    "name": "kafka",
+    "tags": [
+      "Kafka",
+      "消息队列"
+    ]
+  },
+  {
+    "name": "pulsar",
+    "tags": [
+      "Pulsar",
+      "消息队列"
+    ]
+  },
+  {
+    "name": "lapin",
+    "tags": [
+      "AMQP",
+      "消息队列"
+    ]
+  },
+  {
+    "name": "amiquip",
+    "tags": [
+      "AMQP",
+      "消息队列"
+    ]
+  },
+  {
+    "name": "zeromq",
+    "tags": [
+      "ZeroMQ",
+      "消息队列"
+    ]
+  },
+  {
+    "name": "rumqttc",
+    "tags": [
+      "MQTT",
+      "消息队列"
+    ]
+  },
+  {
+    "name": "rumqttd",
+    "tags": [
+      "MQTT",
+      "代理"
+    ]
+  },
+  {
+    "name": "paho-mqtt",
+    "tags": [
+      "MQTT",
+      "客户端"
+    ]
+  },
+  {
+    "name": "nats",
+    "tags": [
+      "NATS",
+      "消息队列"
+    ]
+  },
+  {
+    "name": "async-nats",
+    "tags": [
+      "NATS",
+      "异步"
+    ]
+  },
+  {
+    "name": "aws-sdk-s3",
+    "tags": [
+      "S3",
+      "云存储"
+    ]
+  },
+  {
+    "name": "aws-sdk-ec2",
+    "tags": [
+      "EC2",
+      "云计算"
+    ]
+  },
+  {
+    "name": "aws-sdk-dynamodb",
+    "tags": [
+      "DynamoDB",
+      "NoSQL"
+    ]
+  },
+  {
+    "name": "aws-config",
+    "tags": [
+      "AWS",
+      "配置"
+    ]
+  },
+  {
+    "name": "aws-lambda",
+    "tags": [
+      "Lambda",
+      "无服务器"
+    ]
+  },
+  {
+    "name": "azure_core",
+    "tags": [
+      "Azure",
+      "云服务"
+    ]
+  },
+  {
+    "name": "azure_storage_blobs",
+    "tags": [
+      "Azure",
+      "云存储"
+    ]
+  },
+  {
+    "name": "google-cloud-storage",
+    "tags": [
+      "GCP",
+      "云存储"
+    ]
+  },
+  {
+    "name": "google-cloud-pubsub",
+    "tags": [
+      "GCP",
+      "消息队列"
+    ]
+  },
+  {
+    "name": "firebase-admin",
+    "tags": [
+      "Firebase",
+      "云服务"
+    ]
+  },
+  {
+    "name": "k8s-openapi",
+    "tags": [
+      "Kubernetes",
+      "API"
+    ]
+  },
+  {
+    "name": "kube",
+    "tags": [
+      "Kubernetes",
+      "客户端"
+    ]
+  },
+  {
+    "name": "docker-api",
+    "tags": [
+      "Docker",
+      "容器"
+    ]
+  },
+  {
+    "name": "compose",
+    "tags": [
+      "Docker Compose",
+      "容器"
+    ]
+  },
+  {
+    "name": "open-telemetry",
+    "tags": [
+      "OpenTelemetry",
+      "追踪"
+    ]
+  },
+  {
+    "name": "tracing-opentelemetry",
+    "tags": [
+      "追踪",
+      "OpenTelemetry"
+    ]
+  },
+  {
+    "name": "opentelemetry-otlp",
+    "tags": [
+      "OpenTelemetry",
+      "导出"
+    ]
+  },
+  {
+    "name": "metrics",
+    "tags": [
+      "指标",
+      "统计"
+    ]
+  },
+  {
+    "name": "prometheus",
+    "tags": [
+      "Prometheus",
+      "指标"
+    ]
+  },
+  {
+    "name": "prometheus-client",
+    "tags": [
+      "Prometheus",
+      "指标"
+    ]
+  },
+  {
+    "name": "grafana",
+    "tags": [
+      "Grafana",
+      "可视化"
+    ]
+  },
+  {
+    "name": "image",
+    "tags": [
+      "图像处理",
+      "解码"
+    ]
+  },
+  {
+    "name": "imageproc",
+    "tags": [
+      "图像处理",
+      "算法"
+    ]
+  },
+  {
+    "name": "tiff",
+    "tags": [
+      "TIFF",
+      "图像"
+    ]
+  },
+  {
+    "name": "png",
+    "tags": [
+      "PNG",
+      "图像"
+    ]
+  },
+  {
+    "name": "jpeg-decoder",
+    "tags": [
+      "JPEG",
+      "图像"
+    ]
+  },
+  {
+    "name": "gif",
+    "tags": [
+      "GIF",
+      "图像"
+    ]
+  },
+  {
+    "name": "webp",
+    "tags": [
+      "WebP",
+      "图像"
+    ]
+  },
+  {
+    "name": "ravif",
+    "tags": [
+      "AVIF",
+      "图像"
+    ]
+  },
+  {
+    "name": "qoi",
+    "tags": [
+      "QOI",
+      "图像"
+    ]
+  },
+  {
+    "name": "opencv",
+    "tags": [
+      "OpenCV",
+      "计算机视觉"
+    ]
+  },
+  {
+    "name": "ndarray",
+    "tags": [
+      "科学计算",
+      "数组"
+    ]
+  },
+  {
+    "name": "ndarray-stats",
+    "tags": [
+      "科学计算",
+      "统计"
+    ]
+  },
+  {
+    "name": "nalgebra",
+    "tags": [
+      "线性代数",
+      "数学"
+    ]
+  },
+  {
+    "name": "glam",
+    "tags": [
+      "数学",
+      "游戏"
+    ]
+  },
+  {
+    "name": "cgmath",
+    "tags": [
+      "数学",
+      "游戏"
+    ]
+  },
+  {
+    "name": "mint",
+    "tags": [
+      "数学",
+      "互操作"
+    ]
+  },
+  {
+    "name": "ultraviolet",
+    "tags": [
+      "数学",
+      "SIMD"
+    ]
+  },
+  {
+    "name": "spade",
+    "tags": [
+      "三角剖分",
+      "几何"
+    ]
+  },
+  {
+    "name": "geo",
+    "tags": [
+      "地理",
+      "几何"
+    ]
+  },
+  {
+    "name": "geojson",
+    "tags": [
+      "GeoJSON",
+      "地理"
+    ]
+  },
+  {
+    "name": "gdal",
+    "tags": [
+      "GDAL",
+      "地理"
+    ]
+  },
+  {
+    "name": "proj",
+    "tags": [
+      "投影",
+      "地理"
+    ]
+  },
+  {
+    "name": "egui",
+    "tags": [
+      "GUI",
+      "即时模式"
+    ]
+  },
+  {
+    "name": "eframe",
+    "tags": [
+      "GUI",
+      "窗口"
+    ]
+  },
+  {
+    "name": "iced",
+    "tags": [
+      "GUI",
+      "响应式"
+    ]
+  },
+  {
+    "name": "slint",
+    "tags": [
+      "GUI",
+      "嵌入式"
+    ]
+  },
+  {
+    "name": "tauri",
+    "tags": [
+      "桌面应用",
+      "WebView"
+    ]
+  },
+  {
+    "name": "wry",
+    "tags": [
+      "WebView",
+      "桌面"
+    ]
+  },
+  {
+    "name": "bevy",
+    "tags": [
+      "游戏引擎",
+      "ECS"
+    ]
+  },
+  {
+    "name": "bevy_ecs",
+    "tags": [
+      "ECS",
+      "游戏"
+    ]
+  },
+  {
+    "name": "macroquad",
+    "tags": [
+      "游戏",
+      "2D"
+    ]
+  },
+  {
+    "name": "raylib",
+    "tags": [
+      "游戏",
+      "2D"
+    ]
+  },
+  {
+    "name": "sdl2",
+    "tags": [
+      "游戏",
+      "多媒体"
+    ]
+  },
+  {
+    "name": "minifb",
+    "tags": [
+      "窗口",
+      "像素"
+    ]
+  },
+  {
+    "name": "pixels",
+    "tags": [
+      "像素",
+      "渲染"
+    ]
+  },
+  {
+    "name": "wgpu",
+    "tags": [
+      "GPU",
+      "渲染"
+    ]
+  },
+  {
+    "name": "vulkano",
+    "tags": [
+      "Vulkan",
+      "渲染"
+    ]
+  },
+  {
+    "name": "three-d",
+    "tags": [
+      "3D",
+      "渲染"
+    ]
+  },
+  {
+    "name": "kiss3d",
+    "tags": [
+      "3D",
+      "渲染"
+    ]
+  },
+  {
+    "name": "wasm-bindgen",
+    "tags": [
+      "WebAssembly",
+      "FFI"
+    ]
+  },
+  {
+    "name": "js-sys",
+    "tags": [
+      "WebAssembly",
+      "JS互操作"
+    ]
+  },
+  {
+    "name": "web-sys",
+    "tags": [
+      "Web",
+      "WebAssembly"
+    ]
+  },
+  {
+    "name": "gloo",
+    "tags": [
+      "WebAssembly",
+      "前端"
+    ]
+  },
+  {
+    "name": "yew",
+    "tags": [
+      "Web前端",
+      "框架"
+    ]
+  },
+  {
+    "name": "leptos",
+    "tags": [
+      "Web前端",
+      "响应式"
+    ]
+  },
+  {
+    "name": "dioxus",
+    "tags": [
+      "Web前端",
+      "跨平台"
+    ]
+  },
+  {
+    "name": "sycamore",
+    "tags": [
+      "Web前端",
+      "响应式"
+    ]
+  },
+  {
+    "name": "rocket_dyn_templates",
+    "tags": [
+      "模板",
+      "Web"
+    ]
+  },
+  {
+    "name": "tera",
+    "tags": [
+      "模板引擎"
+    ]
+  },
+  {
+    "name": "askama",
+    "tags": [
+      "模板引擎",
+      "编译期"
+    ]
+  },
+  {
+    "name": "handlebars",
+    "tags": [
+      "模板引擎"
+    ]
+  },
+  {
+    "name": "minijinja",
+    "tags": [
+      "模板引擎",
+      "Jinja"
+    ]
+  },
+  {
+    "name": "maud",
+    "tags": [
+      "HTML",
+      "模板"
+    ]
+  },
+  {
+    "name": "horrorshow",
+    "tags": [
+      "HTML",
+      "宏"
+    ]
+  },
+  {
+    "name": "sailfish",
+    "tags": [
+      "模板引擎",
+      "高性能"
+    ]
+  },
+  {
+    "name": "rayon",
+    "tags": [
+      "并行",
+      "迭代器"
+    ]
+  },
+  {
+    "name": "wasmtime",
+    "tags": [
+      "WebAssembly",
+      "运行时"
+    ]
+  },
+  {
+    "name": "wasmer",
+    "tags": [
+      "WebAssembly",
+      "运行时"
+    ]
+  },
+  {
+    "name": "lucet",
+    "tags": [
+      "WebAssembly",
+      "运行时"
+    ]
+  },
+  {
+    "name": "cranelift",
+    "tags": [
+      "编译器",
+      "代码生成"
+    ]
+  },
+  {
+    "name": "llvm-sys",
+    "tags": [
+      "LLVM",
+      "FFI"
+    ]
+  },
+  {
+    "name": "inkwell",
+    "tags": [
+      "LLVM",
+      "编译"
+    ]
+  },
+  {
+    "name": "cpp",
+    "tags": [
+      "C++",
+      "FFI"
+    ]
+  },
+  {
+    "name": "rust-pretty-assertions",
+    "tags": [
+      "测试",
+      "断言"
+    ]
+  },
+  {
+    "name": "assert_cmd",
+    "tags": [
+      "测试",
+      "CLI"
+    ]
+  },
+  {
+    "name": "predicates",
+    "tags": [
+      "测试",
+      "断言"
+    ]
+  },
+  {
+    "name": "proptest",
+    "tags": [
+      "测试",
+      "属性测试"
+    ]
+  },
+  {
+    "name": "quickcheck",
+    "tags": [
+      "测试",
+      "随机测试"
+    ]
+  },
+  {
+    "name": "criterion",
+    "tags": [
+      "基准测试",
+      "性能"
+    ]
+  },
+  {
+    "name": "iai",
+    "tags": [
+      "基准测试",
+      "性能"
+    ]
+  },
+  {
+    "name": "test-case",
+    "tags": [
+      "测试",
+      "参数化"
+    ]
+  },
+  {
+    "name": "rstest",
+    "tags": [
+      "测试",
+      "fixture"
+    ]
+  },
+  {
+    "name": "insta",
+    "tags": [
+      "测试",
+      "快照"
+    ]
+  },
+  {
+    "name": "mockall",
+    "tags": [
+      "测试",
+      "Mock"
+    ]
+  },
+  {
+    "name": "wiremock",
+    "tags": [
+      "测试",
+      "HTTP Mock"
+    ]
+  },
+  {
+    "name": "httpmock",
+    "tags": [
+      "测试",
+      "HTTP Mock"
+    ]
+  },
+  {
+    "name": "tokio-test",
+    "tags": [
+      "测试",
+      "异步"
+    ]
+  },
+  {
+    "name": "futures-test",
+    "tags": [
+      "测试",
+      "异步"
+    ]
+  },
+  {
+    "name": "loom",
+    "tags": [
+      "测试",
+      "并发"
+    ]
+  },
+  {
+    "name": "shuttle",
+    "tags": [
+      "测试",
+      "并发"
+    ]
+  },
+  {
+    "name": "cargo",
+    "tags": [
+      "构建工具",
+      "包管理"
+    ]
+  },
+  {
+    "name": "cargo-edit",
+    "tags": [
+      "构建工具",
+      "依赖管理"
+    ]
+  },
+  {
+    "name": "cargo-audit",
+    "tags": [
+      "安全",
+      "依赖审计"
+    ]
+  },
+  {
+    "name": "cargo-deny",
+    "tags": [
+      "依赖",
+      "许可"
+    ]
+  },
+  {
+    "name": "cargo-watch",
+    "tags": [
+      "构建工具",
+      "热重载"
+    ]
+  },
+  {
+    "name": "cargo-expand",
+    "tags": [
+      "宏",
+      "调试"
+    ]
+  },
+  {
+    "name": "cargo-make",
+    "tags": [
+      "构建工具",
+      "任务"
+    ]
+  },
+  {
+    "name": "cargo-nextest",
+    "tags": [
+      "测试",
+      "运行器"
+    ]
+  },
+  {
+    "name": "cargo-llvm-lines",
+    "tags": [
+      "编译",
+      "性能"
+    ]
+  },
+  {
+    "name": "cargo-criterion",
+    "tags": [
+      "基准测试",
+      "Cargo"
+    ]
+  },
+  {
+    "name": "just",
+    "tags": [
+      "任务运行器",
+      "CLI"
+    ]
+  },
+  {
+    "name": "nushell",
+    "tags": [
+      "Shell",
+      "CLI"
+    ]
+  },
+  {
+    "name": "rustup",
+    "tags": [
+      "工具链",
+      "安装器"
+    ]
+  },
+  {
+    "name": "cargo-watch",
+    "tags": [
+      "构建工具",
+      "文件监听"
+    ]
+  },
+  {
+    "name": "cross",
+    "tags": [
+      "交叉编译",
+      "容器"
+    ]
+  },
+  {
+    "name": "xshell",
+    "tags": [
+      "Shell",
+      "跨平台"
+    ]
+  },
+  {
+    "name": "duct",
+    "tags": [
+      "Shell",
+      "子进程"
+    ]
+  },
+  {
+    "name": "subprocess",
+    "tags": [
+      "子进程",
+      "Shell"
+    ]
+  },
+  {
+    "name": "shell-words",
+    "tags": [
+      "Shell",
+      "词法"
+    ]
+  },
+  {
+    "name": "shlex",
+    "tags": [
+      "Shell",
+      "词法"
+    ]
+  }
+]
