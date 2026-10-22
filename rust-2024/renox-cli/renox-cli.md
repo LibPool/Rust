@@ -1,0 +1,34 @@
+# renox-cli
+
+> 标签: Rust
+
+## 简介
+
+renox-cli - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/renox-cli
+
+## 历史版本号
+
+- 当前版本：1.2.0
+
+- 0.0.1
+- 1.0.0-rc.1
+- 1.0.0-rc.2
+- 1.0.0-rc.3
+- 1.0.0-rc.4
+- 1.0.0-rc.5
+- 1.0.0-rc.6
+- 1.0.0
+- 1.1.0-rc.1
+- 1.1.0
+- 1.1.1
+- 1.2.0
+
+## 获取地址
+
+- Cargo 安装：`cargo add renox-cli`
+- 下载页面：https://crates.io/crates/renox-cli
+- 最低 Rust 版本：1.94

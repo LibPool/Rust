@@ -1,0 +1,25 @@
+# burn_gekko_train
+
+> 标签: Rust
+
+## 简介
+
+burn_gekko_train - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/burn_gekko_train
+
+## 历史版本号
+
+- 当前版本：0.4.0
+
+- 0.1.0
+- 0.3.0
+- 0.4.0
+
+## 获取地址
+
+- Cargo 安装：`cargo add burn_gekko_train`
+- 下载页面：https://crates.io/crates/burn_gekko_train
+- 最低 Rust 版本：1.98

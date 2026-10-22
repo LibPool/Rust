@@ -1,0 +1,24 @@
+# hybrid-format
+
+> 标签: Rust
+
+## 简介
+
+hybrid-format - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/hybrid-format
+
+## 历史版本号
+
+- 当前版本：0.2.0
+
+- 0.1.0
+- 0.2.0
+
+## 获取地址
+
+- Cargo 安装：`cargo add hybrid-format`
+- 下载页面：https://crates.io/crates/hybrid-format
+- 最低 Rust 版本：1.95.0

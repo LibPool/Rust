@@ -1,0 +1,24 @@
+# playr-dsp
+
+> 标签: Rust
+
+## 简介
+
+playr-dsp - Rust crate from crates.io
+
+## 官网
+
+- crates.io 页面：https://crates.io/crates/playr-dsp
+
+## 历史版本号
+
+- 当前版本：0.19.0
+
+- 0.18.0
+- 0.19.0
+
+## 获取地址
+
+- Cargo 安装：`cargo add playr-dsp`
+- 下载页面：https://crates.io/crates/playr-dsp
+- 最低 Rust 版本：1.89
