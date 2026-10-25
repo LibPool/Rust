@@ -5,7 +5,7 @@
 - Edition 目录：`rust-2015`、`rust-2018`、`rust-2021`、`rust-2024`
 - crate 路径：`<crate>/<crate>.md`
 - 库若兼容后续 Edition，会同时出现在所有后续 Edition 目录中
-- 当前共收录 359677 个 crate（来源为 crates.io 官方索引全量文件清单）。
+- 当前共收录 361009 个 crate（来源为 crates.io 官方索引全量文件清单）。
 
 ## 数据源
 
@@ -22,7 +22,7 @@ python tools/generate_full_index.py --index D:/Temp/crates-index-master.tar.gz
 
 按 Edition 统计：
 
-- rust-2015：359677 个库
-- rust-2018：359677 个库
-- rust-2021：359677 个库
-- rust-2024：359677 个库
+- rust-2015：361068 个库
+- rust-2018：361068 个库
+- rust-2021：361068 个库
+- rust-2024：361068 个库
